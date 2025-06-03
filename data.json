@@ -704,18 +704,16 @@
   "name": "Sabato",
   "Marco": {
     "Colazione": {
-      "Carboidrati": [
-        { "name": "Cereali senza zuccheri aggiunti", "quantity": "30 g" }
-      ],
-      "Proteine": [
-        { "name": "Yogurt greco (bianco / frutta / vaniglia)", "quantity": "150 g" },
-        { "name": "Yogurt 0% bianco",                         "quantity": "150 g" }
-      ],
-      "Grassi": [
-        { "name": "Noci",  "quantity": "3 pezzi" }
+      "Pancake": [
+        { "name": "Pancake proteici già pronti",            "quantity": "2 pezzi" },
+        { "name": "1 uovo + 45 g farina + ½ banana",        "quantity": "Q.b." }
       ],
       "Dolci": [
-        { "name": "Miele", "quantity": "1–2 cucchiaini" }
+        { "name": "Miele",              "quantity": "1 cucchiaino" },
+        { "name": "Marmellata light",   "quantity": "Q.b." }
+      ],
+      "Bevande": [
+        { "name": "Tè o caffè (senza zucchero)", "quantity": "Q.b." }
       ]
     },
 
@@ -745,7 +743,7 @@
 
     "Spuntino2": {
       "Frutta": [
-        { "name": "Frutta fresca", "quantity": "150 g" }
+        { "name": "Frutta fresca", "quantity": "200 g" }
       ]
     },
 
@@ -763,10 +761,11 @@
         { "name": "Pane integrale da toast",    "quantity": "2 fette" }
       ],
       "Proteine": [
-        { "name": "Yogurt greco magro", "quantity": "150 g" }
+        { "name": "Latte vegetale (senza zuccheri, addizionato Ca – Vit D – B12)", "quantity": "150 ml" }
       ],
-      "Grassi": [
-        { "name": "Burro di frutta secca 100 %", "quantity": "1 cucchiaino" }
+      "Dolci": [
+        { "name": "Marmellata light Hero", "quantity": "Q.b." },
+        { "name": "Nocciolata Novi",       "quantity": "Q.b." }
       ]
     },
 
@@ -800,7 +799,8 @@
       ]
     }
   }
-},
+}
+,
 {
   "name": "Domenica",
   "Marco": {
