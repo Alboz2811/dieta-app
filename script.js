@@ -17,43 +17,66 @@ function createElem(tag, text = "", classes = "") {
 
 // Costruisce l’interfaccia dei pasti per un utente in base ai dati di un giorno
 function renderMeals(person, mealsObj, containerEl) {
-  // Pulisco il contenuto precedente
+  // Svuoto il contenuto precedente
   containerEl.innerHTML = "";
 
-  // Per ciascun pasto (Colazione, Spuntino, Pranzo, Cena)
-  for (const mealName of Object.keys(mealsObj)) {
+  // Scelgo la classe di bordo in base alla persona
+  // (deve corrispondere a quelle definite in style.css: .border-marco / .border-sonia)
+  const borderClass = person === "Marco" ? "border-marco" : "border-sonia";
+
+  // Per ciascun pasto (Colazione, Spuntino, Pranzo, Cena, ecc.)
+  for (const [mealName, categoriesObj] of Object.entries(mealsObj)) {
+    // 📦 Card contenitore per il pasto
+    const card = createElem(
+      "div",
+      "",
+      `bg-white rounded-2xl p-4 mb-4 shadow hover:shadow-lg ${borderClass}`
+    );
+
     // Titolo del pasto
-    const mealTitle = createElem(
+    const title = createElem(
       "h3",
       mealName,
-      "text-lg font-semibold mt-4 mb-2"
+      `font-bold mb-3 text-${person === "Marco" ? "blue" : "pink"}-600`
     );
-    containerEl.appendChild(mealTitle);
+    card.appendChild(title);
 
-    const categoriesObj = mealsObj[mealName];
-    // Per ogni categoria (Carboidrati, Proteine, …)
-    for (const categoryName of Object.keys(categoriesObj)) {
-      // Titolo categoria
-      const catTitle = createElem(
-        "h4",
-        categoryName,
-        "font-medium italic mt-2 mb-1"
-      );
-      containerEl.appendChild(catTitle);
+    // Per ogni categoria (es. Carboidrati, Proteine, Grassi, ecc.)
+    for (const [categoryName, items] of Object.entries(categoriesObj)) {
+      // 🔖 Chip per la categoria
+      const chipSpan = createElem("span", categoryName);
+      chipSpan.className =
+        "chip " +
+        {
+          Carboidrati: "chip-carb",
+          Proteine: "chip-prot",
+          Grassi: "chip-fat",
+          Dolci: "chip-sweet",
+          Bevande: "chip-drink",
+          Frutta: "chip-carb",
+          "Frutta secca": "chip-fat",
+          Verdure: "chip-carb",
+          Condimenti: "chip-fat",
+          Opzioni: "chip-prot",        // fallback “neutro” per i pasti misti
+        }[categoryName] || "bg-gray-200 text-gray-800 chip";
 
-      // Elenco delle opzioni
-      const ul = createElem("ul", "", "list-disc list-inside");
+      card.appendChild(chipSpan);
 
-      for (const item of categoriesObj[categoryName]) {
+      // 📋 Lista alimenti per quella categoria
+      const ul = createElem("ul", "", "list-disc list-inside ml-2 mb-2");
+      items.forEach((item) => {
         const li = createElem(
           "li",
           `${item.name} – ${item.quantity}`,
           "text-sm"
         );
         ul.appendChild(li);
-      }
-      containerEl.appendChild(ul);
+      });
+      card.appendChild(ul);
     }
+
+    // Aggiungo la card alla colonna corretta
+    containerEl.appendChild(card);
   }
 }
 
@@ -67,7 +90,7 @@ function populateDays() {
   }
 }
 
-// Al cambio di selezione del giorno, ricarica i pasti
+// Al cambio di selezione del giorno, ricarico i pasti
 function handleDayChange() {
   const selectedDay = selectDayEl.value;
   const dayObj = dietData.days.find((d) => d.name === selectedDay);
@@ -86,7 +109,7 @@ fetch("data.json")
   .then((data) => {
     dietData = data;
     populateDays();
-    // Imposta il primo giorno (ad es. Lunedì) come selezionato
+    // Imposto il primo giorno disponibile (es. Lunedì) come selezionato
     selectDayEl.selectedIndex = 0;
     handleDayChange();
   })
