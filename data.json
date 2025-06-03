@@ -136,4 +136,125 @@
       ]
     }
   }
+},
+{
+  "name": "Martedì",
+  "Marco": {
+    "Colazione": {
+      "Pancake": [
+        { "name": "Pancake proteici già pronti", "quantity": "2 pezzi" },
+        { "name": "1 uovo + 45 g di farina + ½ banana", "quantity": "Q.b." }
+      ],
+      "Dolci": [
+        { "name": "Miele", "quantity": "2 cucchiaini" },
+        { "name": "Marmellata light", "quantity": "2 cucchiaini" }
+      ],
+      "Bevande": [
+        { "name": "Tè o caffè (senza zucchero)", "quantity": "Q.b." }
+      ]
+    },
+
+    "Spuntino": {
+      "Frutta": [
+        { "name": "Frutta fresca", "quantity": "150 g" }
+      ]
+    },
+
+    "Pranzo": {
+      "Carboidrati": [
+        { "name": "Riso basmati / farro / cous-cous / pasta integrale", "quantity": "80 g" },
+        { "name": "Pane integrale / piadina integrale / crakers all’acqua", "quantity": "80 g • 70 g • 12 pezzi" }
+      ],
+      "Proteine": [
+        { "name": "Petto / fesa / coscia di pollo o tacchino, hamburger, roast-beef", "quantity": "≈ 150 g" }
+      ],
+      "Verdure": [
+        { "name": "Verdure a piacere (crude o cotte)", "quantity": "≥ 100 g" }
+      ],
+      "Grassi": [
+        { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio e ½" }
+      ]
+    },
+
+    "Spuntino2": {
+      "Formaggio + frutta secca": [
+        { "name": "Grana + olive", "quantity": "30 g + 15 olive" },
+        { "name": "Grana + noci",  "quantity": "30 g + 4 noci" }
+      ]
+    },
+
+    "Cena": {
+      "Proteine": [
+        { "name": "Uova + grana", "quantity": "3 uova + 30 g grana" }
+      ],
+      "Carboidrati": [
+        { "name": "Pane integrale / patate / crakers / riso basmati", "quantity": "70 g • 250 g • 8 pz • 60 g" }
+      ],
+      "Verdure": [
+        { "name": "Verdure a piacere (crude o vellutata)", "quantity": "≥ 200 g" }
+      ],
+      "Grassi": [
+        { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio" }
+      ]
+    }
+  },
+
+  "Sonia": {
+    "Colazione": {
+      "Pancake": [
+        { "name": "Pancake proteico già pronto", "quantity": "2 pezzi" },
+        { "name": "1 uovo + 45 g di farina + ½ banana", "quantity": "Q.b." }
+      ],
+      "Dolci": [
+        { "name": "Marmellata light", "quantity": "Q.b." }
+      ],
+      "Bevande": [
+        { "name": "Tè o caffè (senza zucchero)", "quantity": "Q.b." }
+      ]
+    },
+
+    "Spuntino": {
+      "Frutta": [
+        { "name": "Frutta fresca", "quantity": "150 g" }
+      ]
+    },
+
+    "Pranzo": {
+      "Carboidrati": [
+        { "name": "Riso basmati / farro / cous-cous / pasta integrale", "quantity": "50 g" },
+        { "name": "Pane integrale / gallette / Wasa", "quantity": "4-8 pezzi" }
+      ],
+      "Proteine": [
+        { "name": "Petto di pollo / tacchino / lonza / crudo / cotto", "quantity": "100-150 g" }
+      ],
+      "Verdure": [
+        { "name": "Verdure a piacere", "quantity": "≥ 150 g" }
+      ],
+      "Grassi": [
+        { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio" }
+      ]
+    },
+
+    "Spuntino2": {
+      "Frutta": [
+        { "name": "Frutta fresca", "quantity": "150 g" }
+      ]
+    },
+
+    "Cena": {
+      "Proteine": [
+        { "name": "Uova + grana", "quantity": "2 uova + 20 g grana" }
+      ],
+      "Carboidrati": [
+        { "name": "Pane integrale / gallette / patate / riso", "quantity": "Q.b. / 4 pz / 200 g / 50 g" }
+      ],
+      "Verdure": [
+        { "name": "Verdure a piacere (crude o cotte)", "quantity": "≥ 200 g" }
+      ],
+      "Grassi": [
+        { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio" }
+      ]
+    }
+  }
 }
+
