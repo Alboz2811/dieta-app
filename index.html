@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dieta Marco &amp; Sonia</title>
+  <!-- Includiamo Tailwind via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Colori personalizzati per Marco e Sonia -->
+  <style>
+    @layer utilities {
+      .text-marco     { @apply text-white bg-blue-600; }
+      .bg-marco-light { @apply bg-blue-100; }
+      .text-sonia     { @apply text-white bg-pink-600; }
+      .bg-sonia-light { @apply bg-pink-100; }
+    }
+  </style>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="min-h-screen bg-gray-50">
+  <header class="py-4 bg-gray-800 text-white text-center">
+    <h1 class="text-2xl font-semibold">Piano Alimentare Settimanale</h1>
+    <p class="mt-1 text-gray-300">Seleziona un giorno per vedere Marco e Sonia</p>
+  </header>
+
+  <main class="max-w-4xl mx-auto mt-8 px-4">
+    <!-- Dropdown per selezionare il giorno -->
+    <div class="mb-6 text-right">
+      <label for="select-day" class="font-medium mr-2">Giorno:</label>
+      <select id="select-day" class="border rounded px-2 py-1">
+        <!-- Popolato in script.js -->
+      </select>
+    </div>
+
+    <!-- Contenitore con due colonne: Marco | Sonia -->
+    <div id="meal-container" class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <!-- Colonna Marco -->
+      <section id="marco-section" class="p-4 rounded-lg bg-marco-light">
+        <h2 class="text-marco font-bold text-xl mb-4 px-2 py-1 rounded">Marco</h2>
+        <div id="marco-meals"></div>
+      </section>
+      <!-- Colonna Sonia -->
+      <section id="sonia-section" class="p-4 rounded-lg bg-sonia-light">
+        <h2 class="text-sonia font-bold text-xl mb-4 px-2 py-1 rounded">Sonia</h2>
+        <div id="sonia-meals"></div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="mt-12 py-4 text-center text-gray-500">
+    <p>© 2025 Dieta Marco &amp; Sonia</p>
+  </footer>
+
+  <!-- Script principale -->
+  <script src="script.js"></script>
+</body>
+</html>
