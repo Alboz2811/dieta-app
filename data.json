@@ -1,954 +1,960 @@
 {
   "days": [
-{
-  "name": "Lunedì",
-  "Marco": {
-    "Colazione": {
-      "Carboidrati": [
-        { "name": "Pane da toast integrale", "quantity": "2 fette" }
-      ],
-      "Proteine": [
-        { "name": "Ricotta o Philadelphia active / protein", "quantity": "30 g" }
-      ],
-      "Grassi": [
-        { "name": "Burro 100% frutta secca", "quantity": "1 cucchiaio" }
-      ],
-      "Dolci": [
-        { "name": "Marmellata light", "quantity": "Q.b." }
-      ],
-      "Bevande": [
-        { "name": "Tè o caffè (senza zucchero)", "quantity": "Q.b." }
-      ]
-    },
-
-    "Spuntino": {
-      "Frutta": [
-        { "name": "Frutta fresca", "quantity": "150 g" }
-      ]
-    },
-
-    "Pranzo": {
-      "Carboidrati": [
-        { "name": "Pasta / riso / farro", "quantity": "80 g (mediamente)" },
-        { "name": "Pane integrale / Wasa", "quantity": "80 g o 5 fette" }
-      ],
-      "Proteine": [
-        { "name": "Tonno fresco / in scatola / sgombro / salmone", "quantity": "120 g (o 2 scatolette)" }
-      ],
-      "Verdure": [
-        { "name": "Verdure a piacere (crude o cotte)", "quantity": "≥ 100 g" }
-      ],
-      "Grassi": [
-        { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio" },
-        { "name": "Avocado", "quantity": "100 g (facoltativo)" }
-      ]
-    },
-
-    "Spuntino2": {
-      "Frutta": [
-        { "name": "Frutta fresca", "quantity": "150 g" }
-      ],
-      "Frutta secca": [
-        { "name": "Noci",        "quantity": "4 pezzi" },
-        { "name": "Mandorle",    "quantity": "10 pezzi" },
-        { "name": "Pistacchi",   "quantity": "10 pezzi" },
-        { "name": "Cocco secco", "quantity": "20 g" }
-      ]
-    },
-
-    "Cena": {
-      "Proteine": [
-        { "name": "Carne a scelta (pollo, tacchino, lonza, spezzatino…)", "quantity": "180–200 g" }
-      ],
-      "Carboidrati": [
-        { "name": "Pane integrale", "quantity": "60 g" },
-        { "name": "Patate",         "quantity": "260 g" },
-        { "name": "Riso basmati",   "quantity": "60 g" }
-      ],
-      "Verdure": [
-        { "name": "Verdure a piacere", "quantity": "≥ 100 g" }
-      ],
-      "Grassi": [
-        { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio" }
-      ]
-    }
-  },
-
-  "Sonia": {
-    "Colazione": {
-      "Carboidrati": [
-        { "name": "Fette biscottate integrali", "quantity": "3 pz" },
-        { "name": "Pane integrale da toast",    "quantity": "2 fette" }
-      ],
-      "Proteine": [
-        { "name": "Latte vegetale (senza zuccheri, addizionato)", "quantity": "150 ml" }
-      ],
-      "Dolci": [
-        { "name": "Marmellata light Hero", "quantity": "Q.b." },
-        { "name": "Nocciolata Novi",       "quantity": "Q.b." }
-      ]
-    },
-
-    "Spuntino": {
-      "Frutta secca": [
-        { "name": "Mandorle",  "quantity": "5 pz" },
-        { "name": "Noci",      "quantity": "2 pz" },
-        { "name": "Arachidi",  "quantity": "10 pz" },
-        { "name": "Pistacchi", "quantity": "10 pz" },
-        { "name": "Nocciole",  "quantity": "6 pz" },
-        { "name": "Anacardi",  "quantity": "6 pz" }
-      ]
-    },
-
-    "Pranzo": {
-      "Carboidrati": [
-        { "name": "Riso basmati / pasta integrale / polenta", "quantity": "60 g" },
-        { "name": "Pane / gallette / Wasa",                   "quantity": "60 g o 3 pz" }
-      ],
-      "Proteine": [
-        { "name": "Tonno / sgombro / salmone (fresco o scatola)", "quantity": "80–120 g" }
-      ],
-      "Verdure": [
-        { "name": "Verdure a piacere", "quantity": "≥ 150 g" }
-      ],
-      "Grassi": [
-        { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio" },
-        { "name": "Avocado",                   "quantity": "½ frutto (facolt.)" }
-      ]
-    },
-
-    "Spuntino2": {
-      "Frutta": [
-        { "name": "Frutta fresca", "quantity": "150 g" }
-      ]
-    },
-
-    "Cena": {
-      "Proteine": [
-        { "name": "Carne magra a scelta (pollo, tacchino, roast-beef…)", "quantity": "150 g" }
-      ],
-      "Carboidrati": [
-        { "name": "Pane integrale / Patate / Riso", "quantity": "50 g pane / 200 g patate / 40 g riso" }
-      ],
-      "Verdure": [
-        { "name": "Verdure a piacere", "quantity": "≥ 200 g" }
-      ],
-      "Grassi": [
-        { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio" }
-      ]
-    }
-  }
-},
-{
-  "name": "Martedì",
-  "Marco": {
-    "Colazione": {
-      "Pancake": [
-        { "name": "Pancake proteici già pronti", "quantity": "2 pezzi" },
-        { "name": "1 uovo + 45 g di farina + ½ banana", "quantity": "Q.b." }
-      ],
-      "Dolci": [
-        { "name": "Miele", "quantity": "2 cucchiaini" },
-        { "name": "Marmellata light", "quantity": "2 cucchiaini" }
-      ],
-      "Bevande": [
-        { "name": "Tè o caffè (senza zucchero)", "quantity": "Q.b." }
-      ]
-    },
-
-    "Spuntino": {
-      "Frutta": [
-        { "name": "Frutta fresca", "quantity": "150 g" }
-      ]
-    },
-
-    "Pranzo": {
-      "Carboidrati": [
-        { "name": "Riso basmati / farro / cous-cous / pasta integrale", "quantity": "80 g" },
-        { "name": "Pane integrale / piadina integrale / crakers all’acqua", "quantity": "80 g • 70 g • 12 pezzi" }
-      ],
-      "Proteine": [
-        { "name": "Petto / fesa / coscia di pollo o tacchino, hamburger, roast-beef", "quantity": "≈ 150 g" }
-      ],
-      "Verdure": [
-        { "name": "Verdure a piacere (crude o cotte)", "quantity": "≥ 100 g" }
-      ],
-      "Grassi": [
-        { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio e ½" }
-      ]
-    },
-
-    "Spuntino2": {
-      "Formaggio + frutta secca": [
-        { "name": "Grana + olive", "quantity": "30 g + 15 olive" },
-        { "name": "Grana + noci",  "quantity": "30 g + 4 noci" }
-      ]
-    },
-
-    "Cena": {
-      "Proteine": [
-        { "name": "Uova + grana", "quantity": "3 uova + 30 g grana" }
-      ],
-      "Carboidrati": [
-        { "name": "Pane integrale / patate / crakers / riso basmati", "quantity": "70 g • 250 g • 8 pz • 60 g" }
-      ],
-      "Verdure": [
-        { "name": "Verdure a piacere (crude o vellutata)", "quantity": "≥ 200 g" }
-      ],
-      "Grassi": [
-        { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio" }
-      ]
-    }
-  },
-
-  "Sonia": {
-    "Colazione": {
-      "Pancake": [
-        { "name": "Pancake proteico già pronto", "quantity": "2 pezzi" },
-        { "name": "1 uovo + 45 g di farina + ½ banana", "quantity": "Q.b." }
-      ],
-      "Dolci": [
-        { "name": "Marmellata light", "quantity": "Q.b." }
-      ],
-      "Bevande": [
-        { "name": "Tè o caffè (senza zucchero)", "quantity": "Q.b." }
-      ]
-    },
-
-    "Spuntino": {
-      "Frutta": [
-        { "name": "Frutta fresca", "quantity": "150 g" }
-      ]
-    },
-
-    "Pranzo": {
-      "Carboidrati": [
-        { "name": "Riso basmati / farro / cous-cous / pasta integrale", "quantity": "50 g" },
-        { "name": "Pane integrale / gallette / Wasa", "quantity": "4-8 pezzi" }
-      ],
-      "Proteine": [
-        { "name": "Petto di pollo / tacchino / lonza / crudo / cotto", "quantity": "100-150 g" }
-      ],
-      "Verdure": [
-        { "name": "Verdure a piacere", "quantity": "≥ 150 g" }
-      ],
-      "Grassi": [
-        { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio" }
-      ]
-    },
-
-    "Spuntino2": {
-      "Frutta": [
-        { "name": "Frutta fresca", "quantity": "150 g" }
-      ]
-    },
-
-    "Cena": {
-      "Proteine": [
-        { "name": "Uova + grana", "quantity": "2 uova + 20 g grana" }
-      ],
-      "Carboidrati": [
-        { "name": "Pane integrale / gallette / patate / riso", "quantity": "Q.b. / 4 pz / 200 g / 50 g" }
-      ],
-      "Verdure": [
-        { "name": "Verdure a piacere (crude o cotte)", "quantity": "≥ 200 g" }
-      ],
-      "Grassi": [
-        { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio" }
-      ]
-    }
-  }
-},
-{
-  "name": "Mercoledì",
-  "Marco": {
-    "Colazione": {
-      "Proteine": [
-        {
-          "name": "Yogurt greco (anche alla frutta o alla vaniglia) + cereali + miele + noci",
-          "quantity": "Yogurt 150 g + Cereali 30 g + Miele 1–2 cucchiaini + Noci 3 pezzi"
+    {
+      "name": "Lunedì",
+      "Marco": {
+        "Colazione": {
+          "Carboidrati": [
+            { "name": "Pane da toast integrale", "quantity": "2 fette" }
+          ],
+          "Proteine": [
+            { "name": "Ricotta o Philadelphia active / protein", "quantity": "30g" }
+          ],
+          "Grassi": [
+            { "name": "Burro 100% frutta secca", "quantity": "1 cucchiaio" }
+          ],
+          "Verdure": []
         },
-        {
-          "name": "Yogurt 0% bianco + cereali + nocciole + fragole",
-          "quantity": "Yogurt 150 g + Cereali 30 g + Nocciole 10 pezzi + Fragole Q.b."
+        "Spuntino": {
+          "Carboidrati": [
+            { "name": "Frutta fresca", "quantity": "150g" }
+          ],
+          "Proteine": [],
+          "Grassi": [],
+          "Verdure": []
         },
-        {
-          "name": "Fette biscottate / pane tostato + miele + yogurt + noci",
-          "quantity": "Fette 2–4 + Miele 1 cucchiaino + Yogurt 150 g + Noci 3 pezzi"
-        }
-      ]
-    },
-
-    "Spuntino": {
-      "Frutta": [
-        { "name": "Frutta fresca", "quantity": "150 g" }
-      ],
-      "Frutta secca": [
-        { "name": "Mandorle + noci", "quantity": "5 + 2 pezzi" },
-        { "name": "Arachidi + noci", "quantity": "10 + 2 pezzi" },
-        { "name": "Pistacchi + noci", "quantity": "10 + 2 pezzi" },
-        { "name": "Nocciole + noci", "quantity": "6 + 2 pezzi" },
-        { "name": "Anacardi + noci", "quantity": "6 + 2 pezzi" }
-      ]
-    },
-
-    "Pranzo": {
-      "Carboidrati": [
-        { "name": "Pane integrale / Wasa / Crakers", "quantity": "80 g o 5–12 pezzi" },
-        { "name": "Farro / Orzo / Riso basmati / Cous cous / Quinoa / Pasta integrale", "quantity": "80 g" }
-      ],
-      "Proteine": [
-        {
-          "name": "Legumi in scatola / surgelati / secchi / Hummus di ceci / Hamburger vegani",
-          "quantity": "200 g / 200 g / 35 g / 150 g / 75–100 g"
+        "Pranzo": {
+          "Carboidrati": [
+            { "name": "Pasta / Riso basmati / integrale / Venere / Farro", "quantity": "80g" },
+            { "name": "Pane integrale / Wasa integrali / Gallette", "quantity": "80g o 5 fette" }
+          ],
+          "Proteine": [
+            { "name": "Tonno fresco / Tonno in scatola al naturale / Sgombro in scatola al naturale / Salmone affumicato selvaggio / Salmone fresco", "quantity": "120g oppure 2 scatolette da 80g / 2 scatolette da 63g / 100g / 120g" }
+          ],
+          "Grassi": [
+            { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio" },
+            { "name": "Avocado + salsa di soia", "quantity": "100g + q.b." }
+          ],
+          "Verdure": [
+            { "name": "Verdure a piacere (crude o cotte)", "quantity": "≥ 100g" }
+          ]
         },
-        {
-          "name": "Pane integrale / Wasa / Crakers / riso / pasta / cous cous / farro (seconda quota)",
-          "quantity": "40 g / 2–6 pezzi / 40 g"
+        "SpuntinoPomeridiano": {
+          "Carboidrati": [
+            { "name": "Frutta fresca", "quantity": "150g" }
+          ],
+          "Proteine": [
+            { "name": "Noci", "quantity": "4 pezzi" },
+            { "name": "Mandorle", "quantity": "10 pezzi" },
+            { "name": "Pistacchi", "quantity": "10 pezzi" },
+            { "name": "Cocco essiccato", "quantity": "20g" }
+          ],
+          "Grassi": [],
+          "Verdure": []
+        },
+        "Cena": {
+          "Carboidrati": [
+            { "name": "Pane integrale", "quantity": "60g" },
+            { "name": "Patate (normali o dolci)", "quantity": "260g" },
+            { "name": "Riso basmati", "quantity": "60g" }
+          ],
+          "Proteine": [
+            { "name": "Cosce di pollo o tacchino / Roast-beef / Petto di pollo o tacchino / Lonza di maiale / Carne per spezzatino", "quantity": "180–200g a scelta" },
+            { "name": "Macinato + uova", "quantity": "120g + 1 uovo" }
+          ],
+          "Grassi": [
+            { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio" }
+          ],
+          "Verdure": [
+            { "name": "Verdure a piacere (crude o cotte)", "quantity": "≥ 100g" }
+          ]
         }
-      ],
-      "Verdure": [
-        { "name": "Verdure a piacere / minestrone", "quantity": "Almeno 200 g" }
-      ],
-      "Grassi": [
-        { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio" }
-      ]
-    },
-
-    "Spuntino2": {
-      "Pausa proteica": [
-        { "name": "Budino proteico", "quantity": "1 vasetto" }
-      ]
-    },
-
-    "Cena": {
-      "Proteine": [
-        { "name": "Ricotta",           "quantity": "100 g" },
-        { "name": "Mozzarella bufala", "quantity": "125 g" },
-        { "name": "Scamorza / Primo sale / Philadelphia light / Stracchino / Feta", "quantity": "80–100 g" }
-      ],
-      "Carboidrati": [
-        { "name": "Pane integrale / Wasa / Crakers / Friselle / Riso o pastina", "quantity": "3–40 g / 6 pz / 2–40 g" }
-      ],
-      "Verdure": [
-        { "name": "Verdure a piacere (crude o cotte / vellutata)", "quantity": "Q.b." }
-      ],
-      "Grassi": [
-        { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio" }
-      ]
-    }
-  },
-
-  "Sonia": {
-    "Colazione": {
-      "Carboidrati": [
-        { "name": "Fette biscottate integrali", "quantity": "3 pezzi" },
-        { "name": "Pane integrale da toast",    "quantity": "2 fette" }
-      ],
-      "Proteine": [
-        { "name": "Yogurt greco 0% (bianco o aromatizzato)", "quantity": "150 g" },
-        { "name": "Yogurt classico 0% alla frutta",          "quantity": "125 g" }
-      ],
-      "Carboidrati alternativi": [
-        { "name": "Cereali da colazione senza zuccheri aggiunti",              "quantity": "30 g" },
-        { "name": "Fette biscottate integrali / Pane integrale (extra)", "quantity": "4 + 2 fette" }
-      ],
-      "Frutta": [
-        { "name": "Frutta fresca", "quantity": "150 g" }
-      ],
-      "Dolci": [
-        { "name": "Miele", "quantity": "1 cucchiaino" }
-      ],
-      "Frutta secca": [
-        { "name": "Noci",       "quantity": "3 pz" },
-        { "name": "Mandorle",   "quantity": "10 pz" },
-        { "name": "Pistacchi",  "quantity": "10 pz" },
-        { "name": "Nocciole",   "quantity": "10 pz" }
-      ]
-    },
-
-    "Spuntino": {
-      "Frutta": [
-        { "name": "Frutta fresca", "quantity": "150 g" }
-      ]
-    },
-
-    "Pranzo": {
-      "Carboidrati": [
-        { "name": "Pane integrale / Wasa / Gallette", "quantity": "80 g o 5 pezzi" },
-        { "name": "Farro / Orzo / Riso basmati / Cous cous / Quinoa", "quantity": "80 g" }
-      ],
-      "Proteine": [
-        {
-          "name": "Legumi in scatola / surgelati / secchi / Hummus di ceci / Hamburger vegani",
-          "quantity": "200 g / 200 g / 35 g / 150 g / 150 g"
+      },
+      "Sonia": {
+        "Colazione": {
+          "Carboidrati": [
+            { "name": "Fette biscottate integrali", "quantity": "3 pezzi" },
+            { "name": "Pane integrale da toast", "quantity": "2 fette" }
+          ],
+          "Proteine": [
+            { "name": "Latte vegetale (senza zuccheri, addizionato Ca–Vit D–B12)", "quantity": "150ml" }
+          ],
+          "Grassi": [
+            { "name": "Burro di frutta secca 100%", "quantity": "1 cucchiaino" }
+          ],
+          "Verdure": [],
+          "Zuccheri&Salse": [
+            { "name": "Marmellata light Hero", "quantity": "Q.b." },
+            { "name": "Nocciolata Novi", "quantity": "Q.b." }
+          ]
+        },
+        "Spuntino": {
+          "Carboidrati": [],
+          "Proteine": [],
+          "Grassi": [
+            { "name": "Mandorle + Noci", "quantity": "5 + 2 pezzi" },
+            { "name": "Arachidi + Noci", "quantity": "10 + 2 pezzi" },
+            { "name": "Pistacchi + Noci", "quantity": "10 + 2 pezzi" },
+            { "name": "Nocciole + Noci", "quantity": "6 + 2 pezzi" },
+            { "name": "Anacardi + Noci", "quantity": "6 + 2 pezzi" }
+          ],
+          "Verdure": [],
+          "Frutta": []
+        },
+        "Pranzo": {
+          "Carboidrati": [
+            { "name": "Riso basmati / Pasta integrale / Polenta", "quantity": "60g" },
+            { "name": "Pane integrale / Gallette / Wasa integrali", "quantity": "60g o 3 pezzi" }
+          ],
+          "Proteine": [
+            { "name": "Tonno fresco / Tonno in scatola al naturale / Sgombro in scatola al naturale / Salmone fresco / Salmone affumicato selvaggio / Tartare", "quantity": "80–120g (o porzione equivalente in scatola)" }
+          ],
+          "Grassi": [
+            { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio" },
+            { "name": "Avocado + Salsa di soia", "quantity": "½ frutto + 1 cucchiaio" }
+          ],
+          "Verdure": [
+            { "name": "Verdure a piacere (crude o cotte)", "quantity": "≥ 150g" }
+          ]
+        },
+        "SpuntinoPomeridiano": {
+          "Carboidrati": [
+            { "name": "Frutta fresca", "quantity": "150g" }
+          ],
+          "Proteine": [],
+          "Grassi": [],
+          "Verdure": []
+        },
+        "Cena": {
+          "Carboidrati": [
+            { "name": "Pane integrale", "quantity": "50g" },
+            { "name": "Patate", "quantity": "200g" },
+            { "name": "Riso", "quantity": "40g" }
+          ],
+          "Proteine": [
+            { "name": "Cosce di pollo o tacchino / Roast-beef / Petto di pollo o tacchino / Lonza di maiale / Carne per spezzatino", "quantity": "150g" }
+          ],
+          "Grassi": [
+            { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio" }
+          ],
+          "Verdure": [
+            { "name": "Verdure a piacere (crude o cotte)", "quantity": "≥ 200g" }
+          ]
         }
-      ],
-      "Verdure": [
-        { "name": "Verdure a piacere", "quantity": "Q.b." }
-      ],
-      "Grassi": [
-        { "name": "Olio extravergine d’oliva + olive", "quantity": "1 cucchiaio + 10 olive" }
-      ]
+      }
     },
-
-    "Spuntino2": {
-      "Pausa proteica": [
-        { "name": "Budino proteico", "quantity": "1 vasetto" }
-      ]
+    {
+      "name": "Martedì",
+      "Marco": {
+        "Colazione": {
+          "Carboidrati": [
+            { "name": "Pancake proteici già pronti", "quantity": "2 pezzi" },
+            { "name": "Preparazione: 1 uovo + 45g di farina + ½ banana", "quantity": "fino a ottenere 2 pezzi" }
+          ],
+          "Proteine": [],
+          "Grassi": [],
+          "Verdure": [],
+          "Zuccheri&Salse": [
+            { "name": "Miele", "quantity": "2 cucchiaini" },
+            { "name": "Marmellata light", "quantity": "2 cucchiaini" }
+          ],
+          "Bevande": [
+            { "name": "Tè o caffè (senza zucchero)", "quantity": "Q.b." }
+          ]
+        },
+        "Spuntino": {
+          "Carboidrati": [
+            { "name": "Frutta fresca", "quantity": "150g" }
+          ],
+          "Proteine": [],
+          "Grassi": [],
+          "Verdure": []
+        },
+        "Pranzo": {
+          "Carboidrati": [
+            { "name": "Riso basmati / Farro / Cous-cous / Pasta integrale", "quantity": "80g" },
+            { "name": "Pane integrale / Piadina integrale / Crakers all’acqua", "quantity": "80g / 70g / 12 pezzi" }
+          ],
+          "Proteine": [
+            { "name": "Petto / Fesa / Coscia di pollo o tacchino / Hamburger / Roast-beef", "quantity": "≈ 150g" }
+          ],
+          "Grassi": [
+            { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio e ½" }
+          ],
+          "Verdure": [
+            { "name": "Verdure a piacere (crude o cotte)", "quantity": "≥ 100g" }
+          ]
+        },
+        "SpuntinoPomeridiano": {
+          "Carboidrati": [],
+          "Proteine": [
+            { "name": "Grana + Olive", "quantity": "30g + 15 olive" },
+            { "name": "Grana + Noci", "quantity": "30g + 4 noci" }
+          ],
+          "Grassi": [],
+          "Verdure": []
+        },
+        "Cena": {
+          "Carboidrati": [
+            { "name": "Pane integrale / Patate / Crakers all’acqua / Riso basmati", "quantity": "70g pane / 250g patate / 8 pezzi / 60g riso" }
+          ],
+          "Proteine": [
+            { "name": "Uova + Grana", "quantity": "3 uova + 30g grana" }
+          ],
+          "Grassi": [
+            { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio" }
+          ],
+          "Verdure": [
+            { "name": "Verdure a piacere (crude o vellutata)", "quantity": "≥ 200g" }
+          ]
+        }
+      },
+      "Sonia": {
+        "Colazione": {
+          "Carboidrati": [
+            { "name": "Pancake proteico già pronto", "quantity": "2 pezzi" },
+            { "name": "Preparazione: 1 uovo + 45g di farina + ½ banana", "quantity": "fino a ottenere 2 pezzi" }
+          ],
+          "Proteine": [],
+          "Grassi": [],
+          "Verdure": [],
+          "Zuccheri&Salse": [
+            { "name": "Marmellata light", "quantity": "Q.b." }
+          ],
+          "Bevande": [
+            { "name": "Tè o caffè (senza zucchero)", "quantity": "Q.b." }
+          ]
+        },
+        "Spuntino": {
+          "Carboidrati": [
+            { "name": "Frutta fresca", "quantity": "150g" }
+          ],
+          "Proteine": [],
+          "Grassi": [],
+          "Verdure": []
+        },
+        "Pranzo": {
+          "Carboidrati": [
+            { "name": "Riso basmati / Farro / Cous-cous / Pasta integrale", "quantity": "50g" },
+            { "name": "Pane integrale / Gallette / Wasa", "quantity": "4–8 pezzi" }
+          ],
+          "Proteine": [
+            { "name": "Petto di pollo / Petto di tacchino / Lonza / Crudo / Cotto", "quantity": "100–150g" }
+          ],
+          "Grassi": [
+            { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio" }
+          ],
+          "Verdure": [
+            { "name": "Verdure a piacere (crude o cotte)", "quantity": "≥ 150g" }
+          ]
+        },
+        "SpuntinoPomeridiano": {
+          "Carboidrati": [
+            { "name": "Frutta fresca", "quantity": "150g" }
+          ],
+          "Proteine": [],
+          "Grassi": [],
+          "Verdure": []
+        },
+        "Cena": {
+          "Carboidrati": [
+            { "name": "Pane integrale / Gallette / Patate / Riso", "quantity": "Q.b. / 4 pezzi / 200g patate / 50g riso" }
+          ],
+          "Proteine": [
+            { "name": "Uova + Grana", "quantity": "2 uova + 20g grana" }
+          ],
+          "Grassi": [
+            { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio" }
+          ],
+          "Verdure": [
+            { "name": "Verdure a piacere (crude o cotte)", "quantity": "≥ 200g" }
+          ]
+        }
+      }
     },
-
-    "Cena": {
-      "Proteine": [
-        { "name": "Merluzzo / Nasello / Orata / Branzino / Polpo / Totani",   "quantity": "150 g" },
-        { "name": "Seppie / Totani / Polpo",                                 "quantity": "150 g" },
-        { "name": "Hamburger di salmone o merluzzo",                          "quantity": "1 pezzo" },
-        { "name": "Budino proteico (extra)",                                 "quantity": "1 vasetto" }
-      ],
-      "Carboidrati": [
-        { "name": "Pane integrale / Wasa / Gallette / Patate / Crakers acqua integrali / Riso basmati / Pastina / Friselle",
-          "quantity": "3–60 g / 6 pz / 3–160 g / 6 pz / 40 g" }
-      ],
-      "Verdure": [
-        { "name": "Verdure a piacere (crude o cotte / vellutata)", "quantity": "Q.b." }
-      ],
-      "Grassi": [
-        { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio" }
-      ]
+    {
+      "name": "Mercoledì",
+      "Marco": {
+        "Colazione": {
+          "Carboidrati": [
+            { "name": "Fette biscottate integrali (2–4 pezzi) / Pane tostato", "quantity": "fino a 4 pezzi" }
+          ],
+          "Proteine": [
+            { "name": "Yogurt greco o 0% bianco / Yogurt classico 0% alla frutta", "quantity": "150g yogurt + 30g cereali + 1–2 cucchiaini miele + 3 noccioline" }
+          ],
+          "Grassi": [],
+          "Verdure": []
+        },
+        "Spuntino": {
+          "Carboidrati": [
+            { "name": "Frutta fresca", "quantity": "150g" }
+          ],
+          "Proteine": [],
+          "Grassi": [
+            { "name": "Mandorle + Noci", "quantity": "5 + 2 pezzi" },
+            { "name": "Arachidi + Noci", "quantity": "10 + 2 pezzi" },
+            { "name": "Pistacchi + Noci", "quantity": "10 + 2 pezzi" },
+            { "name": "Nocciole + Noci", "quantity": "6 + 2 pezzi" },
+            { "name": "Anacardi + Noci", "quantity": "6 + 2 pezzi" }
+          ],
+          "Verdure": []
+        },
+        "Pranzo": {
+          "Carboidrati": [
+            { "name": "Pane integrale / Wasa / Crakers (80g o 5–12 pezzi) / Riso basmati / Pasta integrale / Cous-cous / Farro / Quinoa / Orzo (80g)" }
+          ],
+          "Proteine": [
+            { "name": "Legumi in scatola / surgelati / secchi (200g o 200g o 35g) / Hummus di ceci (150g) / Hamburger vegani (75–100g)" }
+          ],
+          "Grassi": [
+            { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio" }
+          ],
+          "Verdure": [
+            { "name": "Verdure a piacere / Minestrone", "quantity": "≥ 200g" }
+          ]
+        },
+        "SpuntinoPomeridiano": {
+          "Carboidrati": [],
+          "Proteine": [
+            { "name": "Budino proteico", "quantity": "1 vasetto" }
+          ],
+          "Grassi": [],
+          "Verdure": []
+        },
+        "Cena": {
+          "Carboidrati": [
+            { "name": "Pane integrale / Wasa / Crakers / Friselle / Riso o Pastina", "quantity": "3–40g / 6 pezzi / 2–40g" }
+          ],
+          "Proteine": [
+            { "name": "Ricotta", "quantity": "100g" },
+            { "name": "Mozzarella di bufala", "quantity": "125g" },
+            { "name": "Scamorza / Primo sale / Philadelphia light / Stracchino / Feta", "quantity": "80–100g" }
+          ],
+          "Grassi": [
+            { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio" }
+          ],
+          "Verdure": [
+            { "name": "Verdure a piacere (crude o cotte / vellutata)", "quantity": "Q.b." }
+          ]
+        }
+      },
+      "Sonia": {
+        "Colazione": {
+          "Carboidrati": [
+            { "name": "Fette biscottate integrali", "quantity": "3 pezzi" },
+            { "name": "Pane integrale da toast", "quantity": "2 fette" },
+            { "name": "Cereali senza zuccheri aggiunti", "quantity": "30g" }
+          ],
+          "Proteine": [
+            { "name": "Yogurt greco 0% bianco o aromatizzato", "quantity": "150g" },
+            { "name": "Yogurt classico 0% alla frutta", "quantity": "125g" }
+          ],
+          "Grassi": [
+            { "name": "Noci", "quantity": "3 pezzi" },
+            { "name": "Mandorle", "quantity": "10 pezzi" },
+            { "name": "Pistacchi", "quantity": "10 pezzi" },
+            { "name": "Nocciole", "quantity": "10 pezzi" }
+          ],
+          "Verdure": [],
+          "Zuccheri&Salse": [
+            { "name": "Miele", "quantity": "1 cucchiaino" }
+          ]
+        },
+        "Spuntino": {
+          "Carboidrati": [
+            { "name": "Frutta fresca", "quantity": "150g" }
+          ],
+          "Proteine": [],
+          "Grassi": [],
+          "Verdure": []
+        },
+        "Pranzo": {
+          "Carboidrati": [
+            { "name": "Pane integrale / Wasa / Gallette (80g o 5 pezzi)" },
+            { "name": "Farro / Orzo / Riso basmati / Cous-cous / Quinoa", "quantity": "80g" }
+          ],
+          "Proteine": [
+            { "name": "Legumi in scatola / surgelati / secchi (200g o 200g o 35g) / Hummus di ceci (150g) / Hamburger vegani (150g)" }
+          ],
+          "Grassi": [
+            { "name": "Olio extravergine d’oliva + Olive", "quantity": "1 cucchiaio + 10 olive" }
+          ],
+          "Verdure": [
+            { "name": "Verdure a piacere (crude o cotte)", "quantity": "Q.b." }
+          ]
+        },
+        "SpuntinoPomeridiano": {
+          "Carboidrati": [],
+          "Proteine": [
+            { "name": "Budino proteico", "quantity": "1 vasetto" }
+          ],
+          "Grassi": [],
+          "Verdure": []
+        },
+        "Cena": {
+          "Carboidrati": [
+            { "name": "Pane integrale / Wasa / Gallette / Patate / Crakers all’acqua integrali / Riso basmati / Pastina / Friselle", "quantity": "3–60g / 6 pezzi / 3–160g / 6 pezzi / 40g" }
+          ],
+          "Proteine": [
+            { "name": "Merluzzo / Nasello / Orata / Branzino / Polpo / Totani", "quantity": "150g" },
+            { "name": "Seppie / Totani / Polpo", "quantity": "150g" },
+            { "name": "Hamburger di salmone o merluzzo", "quantity": "1 pezzo" }
+          ],
+          "Grassi": [
+            { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio" }
+          ],
+          "Verdure": [
+            { "name": "Verdure a piacere (crude o cotte / vellutata)", "quantity": "Q.b." }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Giovedì",
+      "Marco": {
+        "Colazione": {
+          "Carboidrati": [
+            { "name": "Pancake proteici già pronti", "quantity": "2 pezzi" },
+            { "name": "Preparazione: 1 uovo + 35g di farina + ½ banana", "quantity": "fino a ottenere 2 pezzi" }
+          ],
+          "Proteine": [],
+          "Grassi": [],
+          "Verdure": [],
+          "Zuccheri&Salse": [
+            { "name": "Marmellata light", "quantity": "Q.b." }
+          ],
+          "Bevande": [
+            { "name": "Tè o caffè (senza zucchero)", "quantity": "Q.b." }
+          ]
+        },
+        "Spuntino": {
+          "Carboidrati": [
+            { "name": "Frutta fresca", "quantity": "150g" }
+          ],
+          "Proteine": [],
+          "Grassi": [],
+          "Verdure": []
+        },
+        "Pranzo": {
+          "Carboidrati": [
+            { "name": "Pasta integrale", "quantity": "90g" },
+            { "name": "Gnocchetti di patate / zucca / spinaci", "quantity": "150g" },
+            { "name": "Pane integrale", "quantity": "90g" },
+            { "name": "Risotto", "quantity": "90g" },
+            { "name": "Polenta", "quantity": "90g" }
+          ],
+          "Proteine": [
+            { "name": "Ricotta", "quantity": "150g" },
+            { "name": "Mozzarella", "quantity": "125g" },
+            { "name": "Scamorza", "quantity": "100g" },
+            { "name": "Primo sale", "quantity": "100g" },
+            { "name": "Grana / Parmigiano", "quantity": "30g" },
+            { "name": "Feta", "quantity": "100g" }
+          ],
+          "Grassi": [
+            { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio" }
+          ],
+          "Verdure": [
+            { "name": "Verdure a piacere (crude o cotte)", "quantity": "Q.b." }
+          ]
+        },
+        "SpuntinoPomeridiano": {
+          "Carboidrati": [
+            { "name": "Frutta fresca", "quantity": "150g" }
+          ],
+          "Proteine": [],
+          "Grassi": [],
+          "Verdure": []
+        },
+        "Cena": {
+          "Carboidrati": [
+            { "name": "Pane integrale", "quantity": "60g" },
+            { "name": "Pane da toast integrale", "quantity": "4 fette" },
+            { "name": "Patate normali o dolci", "quantity": "260g" },
+            { "name": "Riso basmati", "quantity": "60g" }
+          ],
+          "Proteine": [
+            { "name": "Cosce di pollo o tacchino", "quantity": "200g" },
+            { "name": "Roast-beef", "quantity": "100g" },
+            { "name": "Petto di pollo o tacchino", "quantity": "180g" },
+            { "name": "Lonza di maiale", "quantity": "180g" },
+            { "name": "Carne per spezzatino", "quantity": "180g" },
+            { "name": "Macinato + uova", "quantity": "120g + 1 uovo" }
+          ],
+          "Grassi": [
+            { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio" }
+          ],
+          "Verdure": [
+            { "name": "Verdure a piacere (crude o cotte)", "quantity": "Almeno 100g" }
+          ]
+        }
+      },
+      "Sonia": {
+        "Colazione": {
+          "Carboidrati": [
+            { "name": "Pancake proteico già pronto", "quantity": "2 pezzi" },
+            { "name": "Preparazione: 1 uovo + 35g di farina + ½ banana", "quantity": "fino a ottenere 2 pezzi" }
+          ],
+          "Proteine": [],
+          "Grassi": [],
+          "Verdure": [],
+          "Zuccheri&Salse": [
+            { "name": "Marmellata light Hero", "quantity": "Q.b." }
+          ],
+          "Bevande": [
+            { "name": "Tè o caffè (senza zucchero)", "quantity": "Q.b." }
+          ]
+        },
+        "Spuntino": {
+          "Carboidrati": [
+            { "name": "Frutta fresca", "quantity": "150g" }
+          ],
+          "Proteine": [],
+          "Grassi": [],
+          "Verdure": []
+        },
+        "Pranzo": {
+          "Carboidrati": [
+            { "name": "Pasta integrale", "quantity": "70g" },
+            { "name": "Pane integrale", "quantity": "60g" },
+            { "name": "Crakers all’acqua", "quantity": "7 pezzi" },
+            { "name": "Wasa integrali / Gallette", "quantity": "3 pezzi" },
+            { "name": "Riso", "quantity": "70g" },
+            { "name": "Polenta", "quantity": "70g" }
+          ],
+          "Proteine": [
+            { "name": "Ricotta", "quantity": "100g" },
+            { "name": "Mozzarella", "quantity": "125g" },
+            { "name": "Grana / Parmigiano", "quantity": "30g" },
+            { "name": "Scamorza", "quantity": "80g" },
+            { "name": "Stracchino", "quantity": "80g" },
+            { "name": "Primo sale", "quantity": "80g" },
+            { "name": "Feta", "quantity": "80g" }
+          ],
+          "Grassi": [
+            { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio" },
+            { "name": "Avocado + Salsa di soia", "quantity": "½ avocado + 1 cucchiaio" }
+          ],
+          "Verdure": [
+            { "name": "Verdure a piacere (crude o cotte)", "quantity": "Q.b." }
+          ]
+        },
+        "SpuntinoPomeridiano": {
+          "Carboidrati": [
+            { "name": "Frutta fresca", "quantity": "150g" }
+          ],
+          "Proteine": [],
+          "Grassi": [],
+          "Verdure": []
+        },
+        "Cena": {
+          "Carboidrati": [
+            { "name": "Pane integrale / Pane da toast integrale / Gallette", "quantity": "Q.b." },
+            { "name": "Patate", "quantity": "250g" },
+            { "name": "Riso basmati", "quantity": "60g" }
+          ],
+          "Proteine": [
+            { "name": "Bresaola + Grana", "quantity": "100g + 15g grana" },
+            { "name": "Prosciutto crudo", "quantity": "100g" }
+          ],
+          "Grassi": [
+            { "name": "Olio extravergine d’oliva + Olive", "quantity": "1 cucchiaio + 10 olive" }
+          ],
+          "Verdure": [
+            { "name": "Verdure a piacere (crude o cotte)", "quantity": "Almeno 200g" }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Venerdì",
+      "Marco": {
+        "Colazione": {
+          "Carboidrati": [
+            { "name": "Yogurt / Kefir magro bianco o alla frutta (senza lattosio)", "quantity": "125–120g" },
+            { "name": "Yogurt greco bianco senza lattosio", "quantity": "150g" },
+            { "name": "Cereali senza zuccheri aggiunti", "quantity": "20g" }
+          ],
+          "Proteine": [],
+          "Grassi": [
+            { "name": "Pistacchi / Mandorle / Nocciole / Noci", "quantity": "10 / 4 / 10 / Q.b." }
+          ],
+          "Verdure": [
+            { "name": "Frutta fresca", "quantity": "100g" }
+          ]
+        },
+        "Spuntino": {
+          "Carboidrati": [],
+          "Proteine": [],
+          "Grassi": [
+            { "name": "Mandorle + Noci", "quantity": "5 + 2 pezzi" },
+            { "name": "Arachidi + Noci", "quantity": "10 + 2 pezzi" },
+            { "name": "Pistacchi + Noci", "quantity": "10 + 2 pezzi" },
+            { "name": "Nocciole + Noci", "quantity": "6 + 2 pezzi" },
+            { "name": "Anacardi + Noci", "quantity": "6 + 2 pezzi" }
+          ],
+          "Verdure": []
+        },
+        "Pranzo": {
+          "Carboidrati": [
+            { "name": "Legumi in scatola / Legumi surgelati / Legumi secchi / Hummus di ceci / Hamburger vegani", "quantity": "120g – 120g – 25g – 150g – 75–100g" },
+            { "name": "Pane integrale / Wasa / Crakers / Riso basmati / Pasta integrale / Cous-cous / Farro", "quantity": "40g / 2–6 pezzi / 40g" }
+          ],
+          "Proteine": [],
+          "Grassi": [
+            { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio" }
+          ],
+          "Verdure": [
+            { "name": "Verdure a piacere / Minestrone", "quantity": "Almeno 200g" }
+          ]
+        },
+        "SpuntinoPomeridiano": {
+          "Carboidrati": [],
+          "Proteine": [
+            { "name": "Budino proteico", "quantity": "1 vasetto" }
+          ],
+          "Grassi": [],
+          "Verdure": []
+        },
+        "Cena": {
+          "Carboidrati": [
+            { "name": "Pane integrale / Wasa / Crakers / Friselle / Riso o Pastina", "quantity": "3–40g / 6 pezzi / 2–40g" }
+          ],
+          "Proteine": [
+            { "name": "Ricotta", "quantity": "100g" },
+            { "name": "Mozzarella di bufala", "quantity": "125g" },
+            { "name": "Scamorza / Primo sale / Philadelphia light / Stracchino / Feta", "quantity": "80–100g" }
+          ],
+          "Grassi": [
+            { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio" }
+          ],
+          "Verdure": [
+            { "name": "Verdure a piacere (crude o cotte / vellutata)", "quantity": "Q.b." }
+          ]
+        }
+      },
+      "Sonia": {
+        "Colazione": {
+          "Carboidrati": [
+            { "name": "Yogurt / Kefir magro bianco o alla frutta (senza lattosio)", "quantity": "125–120g" },
+            { "name": "Yogurt greco bianco senza lattosio", "quantity": "150g" },
+            { "name": "Cereali senza zuccheri aggiunti", "quantity": "20g" }
+          ],
+          "Proteine": [],
+          "Grassi": [
+            { "name": "Pistacchi / Mandorle / Nocciole / Noci", "quantity": "10 / 4 / 10 / Q.b." }
+          ],
+          "Verdure": [
+            { "name": "Frutta fresca", "quantity": "100g" }
+          ]
+        },
+        "Spuntino": {
+          "Carboidrati": [],
+          "Proteine": [],
+          "Grassi": [
+            { "name": "Mandorle + Noci", "quantity": "5 + 2 pezzi" },
+            { "name": "Arachidi + Noci", "quantity": "10 + 2 pezzi" },
+            { "name": "Pistacchi + Noci", "quantity": "10 + 2 pezzi" },
+            { "name": "Nocciole + Noci", "quantity": "6 + 2 pezzi" },
+            { "name": "Anacardi + Noci", "quantity": "6 + 2 pezzi" }
+          ],
+          "Verdure": []
+        },
+        "Pranzo": {
+          "Carboidrati": [
+            { "name": "Legumi in scatola / Legumi surgelati / Legumi secchi / Hummus di ceci / Hamburger vegani", "quantity": "120g – 120g – 25g – 150g – 75–100g" },
+            { "name": "Pane integrale / Wasa / Crakers / Riso basmati / Pasta integrale / Cous-cous / Farro", "quantity": "40g / 2–6 pezzi / 40g" }
+          ],
+          "Proteine": [],
+          "Grassi": [
+            { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio" }
+          ],
+          "Verdure": [
+            { "name": "Verdure a piacere", "quantity": "Q.b." }
+          ]
+        },
+        "SpuntinoPomeridiano": {
+          "Carboidrati": [],
+          "Proteine": [
+            { "name": "Budino proteico", "quantity": "1 vasetto" }
+          ],
+          "Grassi": [],
+          "Verdure": []
+        },
+        "Cena": {
+          "Carboidrati": [
+            { "name": "Pane integrale / Wasa / Crakers / Friselle / Riso o Pastina", "quantity": "3–40g / 6 pezzi / 2–40g" }
+          ],
+          "Proteine": [
+            { "name": "Ricotta", "quantity": "100g" },
+            { "name": "Mozzarella di bufala", "quantity": "125g" },
+            { "name": "Scamorza / Primo sale / Philadelphia light / Stracchino / Feta", "quantity": "80–100g" }
+          ],
+          "Grassi": [
+            { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio" }
+          ],
+          "Verdure": [
+            { "name": "Verdure a piacere (crude o cotte / vellutata)", "quantity": "Q.b." }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Sabato",
+      "Marco": {
+        "Colazione": {
+          "Carboidrati": [
+            { "name": "Pancake proteici già pronti", "quantity": "2 pezzi" },
+            { "name": "Preparazione: 1 uovo + 45g di farina + ½ banana", "quantity": "fino a ottenere 2 pezzi" }
+          ],
+          "Proteine": [],
+          "Grassi": [],
+          "Verdure": [],
+          "Zuccheri&Salse": [
+            { "name": "Miele", "quantity": "1 cucchiaino" },
+            { "name": "Marmellata light", "quantity": "Q.b." }
+          ],
+          "Bevande": [
+            { "name": "Tè o caffè (senza zucchero)", "quantity": "Q.b." }
+          ]
+        },
+        "Spuntino": {
+          "Carboidrati": [
+            { "name": "Frutta fresca", "quantity": "150g" }
+          ],
+          "Proteine": [],
+          "Grassi": [],
+          "Verdure": []
+        },
+        "Pranzo": {
+          "Carboidrati": [
+            { "name": "Pasta integrale / Riso basmati", "quantity": "50g" },
+            { "name": "Pane integrale", "quantity": "50g" },
+            { "name": "Crakers all’acqua", "quantity": "5 pezzi" }
+          ],
+          "Proteine": [
+            { "name": "Fagioli / Ceci / Piselli (in scatola o surgelati)", "quantity": "120g (1 scatoletta piccola)" },
+            { "name": "Fagioli / Ceci / Piselli secchi", "quantity": "25g (peso a crudo)" }
+          ],
+          "Grassi": [
+            { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio" }
+          ],
+          "Verdure": [
+            { "name": "Verdure a piacere (crude o cotte)", "quantity": "Almeno 200g" }
+          ]
+        },
+        "SpuntinoPomeridiano": {
+          "Carboidrati": [
+            { "name": "Frutta fresca", "quantity": "200g" }
+          ],
+          "Proteine": [],
+          "Grassi": [],
+          "Verdure": []
+        },
+        "Cena": {
+          "Carboidrati": [],
+          "Proteine": [],
+          "Grassi": [
+            { "name": "Pasto libero", "quantity": "Q.b." }
+          ],
+          "Verdure": []
+        }
+      },
+      "Sonia": {
+        "Colazione": {
+          "Carboidrati": [
+            { "name": "Fette biscottate integrali", "quantity": "3 pezzi" },
+            { "name": "Pane integrale da toast", "quantity": "2 fette" }
+          ],
+          "Proteine": [
+            { "name": "Latte vegetale (senza zuccheri, addizionato Ca–Vit D–B12)", "quantity": "150ml" }
+          ],
+          "Grassi": [],
+          "Verdure": [],
+          "Zuccheri&Salse": [
+            { "name": "Marmellata light Hero", "quantity": "Q.b." },
+            { "name": "Nocciolata Novi", "quantity": "Q.b." }
+          ]
+        },
+        "Pranzo": {
+          "Carboidrati": [
+            { "name": "Pasta integrale / Riso basmati", "quantity": "50g" },
+            { "name": "Pane integrale", "quantity": "50g" },
+            { "name": "Crakers all’acqua", "quantity": "5 pezzi" }
+          ],
+          "Proteine": [
+            { "name": "Fagioli / Ceci / Piselli (in scatola o surgelati)", "quantity": "120g (1 scatoletta piccola)" },
+            { "name": "Fagioli / Ceci / Piselli secchi", "quantity": "25g (peso a crudo)" }
+          ],
+          "Grassi": [
+            { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio" }
+          ],
+          "Verdure": [
+            { "name": "Verdure a piacere (crude o cotte)", "quantity": "Almeno 200g" }
+          ]
+        },
+        "Cena": {
+          "Carboidrati": [],
+          "Proteine": [],
+          "Grassi": [
+            { "name": "Pasto libero", "quantity": "Q.b." }
+          ],
+          "Verdure": []
+        }
+      }
+    },
+    {
+      "name": "Domenica",
+      "Marco": {
+        "Colazione": {
+          "Carboidrati": [
+            { "name": "Cereali senza zuccheri aggiunti", "quantity": "20g" }
+          ],
+          "Proteine": [
+            { "name": "Yogurt / Kefir magro bianco o alla frutta (anche senza lattosio)", "quantity": "125–120g" },
+            { "name": "Yogurt greco bianco (senza lattosio)", "quantity": "150g" }
+          ],
+          "Grassi": [
+            { "name": "Pistacchi / Mandorle / Nocciole / Noci", "quantity": "10 / 4 / 10 / 3 pezzi" }
+          ],
+          "Verdure": [],
+          "Frutta": [
+            { "name": "Frutta fresca", "quantity": "100g" }
+          ]
+        },
+        "Spuntino": {
+          "Carboidrati": [],
+          "Proteine": [],
+          "Grassi": [
+            { "name": "Mandorle + Noci", "quantity": "5 + 2 pezzi" },
+            { "name": "Arachidi + Noci", "quantity": "10 + 2 pezzi" },
+            { "name": "Pistacchi + Noci", "quantity": "10 + 2 pezzi" },
+            { "name": "Nocciole + Noci", "quantity": "6 + 2 pezzi" },
+            { "name": "Anacardi + Noci", "quantity": "6 + 2 pezzi" }
+          ],
+          "Verdure": []
+        },
+        "Pranzo": {
+          "Carboidrati": [
+            { "name": "Risotto alla zucca e Grana (con verdure a parte)", "quantity": "100g" },
+            { "name": "Risotto alle verdure e Grana (con verdure a parte)", "quantity": "100g" },
+            { "name": "Gnocchetti di patate + Pomodoro + Grana (verdure a parte)", "quantity": "180g" },
+            { "name": "Spätzle al pomodoro + Grana (verdure a parte)", "quantity": "150g" },
+            { "name": "Ravioli con burro (verdure grigliate a parte)", "quantity": "15 pezzi" }
+          ],
+          "Proteine": [
+            { "name": "Grana (per Risotti)", "quantity": "30g" },
+            { "name": "Grana (per Gnocchetti)", "quantity": "30g" },
+            { "name": "Grana (per Spätzle)", "quantity": "30g" },
+            { "name": "Burro (per Ravioli)", "quantity": "10g" }
+          ],
+          "Grassi": [],
+          "Verdure": [
+            { "name": "Verdure di contorno / a parte", "quantity": "Q.b." }
+          ]
+        },
+        "SpuntinoPomeridiano": {
+          "Carboidrati": [
+            { "name": "Frutta fresca", "quantity": "150g" }
+          ],
+          "Proteine": [],
+          "Grassi": [
+            { "name": "Cocco essiccato", "quantity": "15g" },
+            { "name": "Cocco fresco", "quantity": "40g" }
+          ],
+          "Verdure": []
+        },
+        "Cena": {
+          "Carboidrati": [
+            { "name": "Pane integrale", "quantity": "50g" },
+            { "name": "Pane azzimo", "quantity": "30g" },
+            { "name": "Wasa / Gallette", "quantity": "4 pezzi" },
+            { "name": "Patate", "quantity": "200g" },
+            { "name": "Purè di patate", "quantity": "10 cucchiai" },
+            { "name": "Crakers all’acqua", "quantity": "12 pezzi" }
+          ],
+          "Proteine": [
+            { "name": "Uova", "quantity": "2 uova" }
+          ],
+          "Grassi": [
+            { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio" }
+          ],
+          "Verdure": [
+            { "name": "Verdure a piacere (crude o cotte)", "quantity": "≥ 200g" }
+          ]
+        }
+      },
+      "Sonia": {
+        "Colazione": {
+          "Carboidrati": [
+            { "name": "Cereali senza zuccheri aggiunti", "quantity": "20g" }
+          ],
+          "Proteine": [
+            { "name": "Yogurt / Kefir magro bianco o alla frutta (anche senza lattosio)", "quantity": "125–120g" },
+            { "name": "Yogurt greco bianco (senza lattosio)", "quantity": "150g" }
+          ],
+          "Grassi": [
+            { "name": "Pistacchi / Mandorle / Nocciole / Noci", "quantity": "10 / 4 / 10 / 3 pezzi" }
+          ],
+          "Verdure": [],
+          "Frutta": [
+            { "name": "Frutta fresca", "quantity": "100g" }
+          ]
+        },
+        "Spuntino": {
+          "Carboidrati": [],
+          "Proteine": [],
+          "Grassi": [
+            { "name": "Mandorle + Noci", "quantity": "5 + 2 pezzi" },
+            { "name": "Arachidi + Noci", "quantity": "10 + 2 pezzi" },
+            { "name": "Pistacchi + Noci", "quantity": "10 + 2 pezzi" },
+            { "name": "Nocciole + Noci", "quantity": "6 + 2 pezzi" },
+            { "name": "Anacardi + Noci", "quantity": "6 + 2 pezzi" }
+          ],
+          "Verdure": []
+        },
+        "Pranzo": {
+          "Carboidrati": [
+            { "name": "Spätzle o Gnocchetti di patate + Pomodoro + Grana (verdure a parte)", "quantity": "150g" },
+            { "name": "Pasta integrale / Riso / Polenta / Ravioli (verdure grigliate a parte)", "quantity": "70–100g / 10 pezzi" }
+          ],
+          "Proteine": [
+            { "name": "Grana (per Spätzle o Gnocchetti)", "quantity": "30g" }
+          ],
+          "Grassi": [
+            { "name": "Burro", "quantity": "10g" },
+            { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio e ½" }
+          ],
+          "Verdure": [
+            { "name": "Verdure a piacere (crude o cotte)", "quantity": "Q.b." }
+          ]
+        },
+        "SpuntinoPomeridiano": {
+          "Carboidrati": [],
+          "Proteine": [
+            { "name": "Budino proteico", "quantity": "1 vasetto" }
+          ],
+          "Grassi": [],
+          "Verdure": []
+        },
+        "Cena": {
+          "Carboidrati": [
+            { "name": "Pane integrale", "quantity": "50g" },
+            { "name": "Pane da toast integrale", "quantity": "4 fette" },
+            { "name": "Patate normali o dolci", "quantity": "260g" },
+            { "name": "Riso basmati", "quantity": "60g" }
+          ],
+          "Proteine": [
+            { "name": "Uova + Grana", "quantity": "3 uova + 20g grana" }
+          ],
+          "Grassi": [
+            { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio" }
+          ],
+          "Verdure": [
+            { "name": "Verdure a piacere (crude o cotte)", "quantity": "≥ 200g" }
+          ]
+        }
+      }
     }
-  }
-},
-{
-  "name": "Giovedì",
-  "Marco": {
-    "Colazione": {
-      "Carboidrati": [
-        { "name": "Pancake proteici già pronti", "quantity": "2 pezzi" },
-        { "name": "1 uovo + 35 g di farina + ½ banana", "quantity": "Q.b." }
-      ],
-      "Dolci": [
-        { "name": "Marmellata light", "quantity": "Q.b." }
-      ],
-      "Bevande": [
-        { "name": "Tè o caffè (senza zucchero)", "quantity": "Q.b." }
-      ]
-    },
-
-    "Spuntino": {
-      "Frutta": [
-        { "name": "Frutta fresca", "quantity": "150 g" }
-      ]
-    },
-
-    "Pranzo": {
-      "Carboidrati": [
-        { "name": "Pasta integrale",               "quantity": "90 g" },
-        { "name": "Gnocchetti di patate / zucca / spinaci", "quantity": "150 g" },
-        { "name": "Pane integrale",                "quantity": "90 g" },
-        { "name": "Risotto",                       "quantity": "90 g" },
-        { "name": "Polenta",                       "quantity": "90 g" }
-      ],
-      "Proteine": [
-        { "name": "Ricotta",       "quantity": "150 g" },
-        { "name": "Mozzarella",    "quantity": "125 g" },
-        { "name": "Scamorza",      "quantity": "100 g" },
-        { "name": "Primo sale",    "quantity": "100 g" },
-        { "name": "Grana",         "quantity": "30 g" },
-        { "name": "Feta",          "quantity": "100 g" }
-      ],
-      "Verdure": [
-        { "name": "Verdure a piacere (crude o cotte)", "quantity": "Q.b." }
-      ],
-      "Grassi": [
-        { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio" }
-      ]
-    },
-
-    "Spuntino2": {
-      "Frutta": [
-        { "name": "Frutta fresca", "quantity": "150 g" }
-      ]
-    },
-
-    "Cena": {
-      "Proteine": [
-        { "name": "Cosce di pollo o tacchino",   "quantity": "200 g" },
-        { "name": "Roast-beef",                  "quantity": "100 g" },
-        { "name": "Petto di pollo o tacchino",   "quantity": "180 g" },
-        { "name": "Lonza di maiale",             "quantity": "180 g" },
-        { "name": "Carne per spezzatino",        "quantity": "180 g" },
-        { "name": "Macinato + uova",             "quantity": "120 g + 1 uovo" }
-      ],
-      "Carboidrati": [
-        { "name": "Pane integrale",            "quantity": "60 g" },
-        { "name": "Pane da toast integrale",   "quantity": "4 fette" },
-        { "name": "Patate normali o dolci",    "quantity": "260 g" },
-        { "name": "Riso basmati",              "quantity": "60 g" }
-      ],
-      "Verdure": [
-        { "name": "Verdure a piacere (crude o cotte)", "quantity": "Almeno 100 g" }
-      ],
-      "Grassi": [
-        { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio" }
-      ]
-    }
-  },
-
-  "Sonia": {
-    "Colazione": {
-      "Carboidrati": [
-        { "name": "Pancake proteico già pronto", "quantity": "2 pezzi" },
-        { "name": "1 uovo + 35 g di farina + ½ banana", "quantity": "Q.b." }
-      ],
-      "Dolci": [
-        { "name": "Marmellata light Hero", "quantity": "Q.b." }
-      ],
-      "Bevande": [
-        { "name": "Tè o caffè (senza zucchero)", "quantity": "Q.b." }
-      ]
-    },
-
-    "Spuntino": {
-      "Frutta": [
-        { "name": "Frutta fresca", "quantity": "150 g" }
-      ]
-    },
-
-    "Pranzo": {
-      "Carboidrati": [
-        { "name": "Pasta integrale",      "quantity": "70 g" },
-        { "name": "Pane integrale",       "quantity": "60 g" },
-        { "name": "Crakers all’acqua",    "quantity": "7 pezzi" },
-        { "name": "Wasa integrali / Gallette", "quantity": "3 pezzi" },
-        { "name": "Riso",                 "quantity": "70 g" },
-        { "name": "Polenta",              "quantity": "70 g" }
-      ],
-      "Proteine": [
-        { "name": "Ricotta",              "quantity": "100 g" },
-        { "name": "Mozzarella",           "quantity": "125 g" },
-        { "name": "Grana / Parmigiano",   "quantity": "30 g" },
-        { "name": "Scamorza",             "quantity": "80 g" },
-        { "name": "Stracchino",           "quantity": "80 g" },
-        { "name": "Primo sale",           "quantity": "80 g" },
-        { "name": "Feta",                 "quantity": "80 g" }
-      ],
-      "Verdure": [
-        { "name": "Verdure a piacere (crude o cotte)", "quantity": "Q.b." }
-      ],
-      "Grassi": [
-        { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio" },
-        { "name": "Avocado + salsa di soia",    "quantity": "½ avocado + 1 cucchiaio" }
-      ]
-    },
-
-    "Spuntino2": {
-      "Frutta": [
-        { "name": "Frutta fresca", "quantity": "150 g" }
-      ]
-    },
-
-    "Cena": {
-      "Proteine": [
-        { "name": "Bresaola + grana", "quantity": "100 g + 15 g grana" },
-        { "name": "Prosciutto crudo", "quantity": "100 g" }
-      ],
-      "Carboidrati": [
-        { "name": "Pane integrale / Pane da toast integrale / Gallette", "quantity": "Q.b." },
-        { "name": "Patate",         "quantity": "250 g" },
-        { "name": "Riso basmati",   "quantity": "60 g" }
-      ],
-      "Verdure": [
-        { "name": "Verdure a piacere (crude o cotte)", "quantity": "Almeno 200 g" }
-      ],
-      "Grassi": [
-        { "name": "Olio extravergine d’oliva + olive", "quantity": "1 cucchiaio + 10 olive" }
-      ]
-    }
-  }
-},
-{
-  "name": "Venerdì",
-  "Marco": {
-    "Colazione": {
-      "Yogurt/Kefir": [
-        { "name": "Yogurt/kefir magro bianco o alla frutta (senza lattosio)", "quantity": "125–120 g" },
-        { "name": "Yogurt greco bianco senza lattosio",                       "quantity": "150 g" }
-      ],
-      "Cereali": [
-        { "name": "Cereali senza zuccheri aggiunti", "quantity": "20 g" }
-      ],
-      "Frutta secca": [
-        { "name": "Pistacchi / Mandorle / Nocciole / Noci", "quantity": "10 – 4 – 10 – Q.b." }
-      ],
-      "Frutta": [
-        { "name": "Frutta fresca", "quantity": "100 g" }
-      ]
-    },
-
-    "Spuntino": {
-      "Frutta secca": [
-        { "name": "Mandorle + noci",  "quantity": "5 + 2 pezzi" },
-        { "name": "Arachidi + noci",  "quantity": "10 + 2 pezzi" },
-        { "name": "Pistacchi + noci", "quantity": "10 + 2 pezzi" },
-        { "name": "Nocciole + noci",  "quantity": "6 + 2 pezzi" },
-        { "name": "Anacardi + noci",  "quantity": "6 + 2 pezzi" }
-      ]
-    },
-
-    "Pranzo": {
-      "Carboidrati": [
-        { "name": "Legumi in scatola / surgelati / secchi / hummus / hamburger vegani", "quantity": "120 g – 120 g – 25 g – 150 g – 75-100 g" }
-      ],
-      "Carboidrati secondari": [
-        { "name": "Pane integrale / Wasa / Crakers / Riso basmati / Pasta integrale / Cous cous / Farro", "quantity": "40 g / 2-6 pezzi / 40 g" }
-      ],
-      "Verdure": [
-        { "name": "Verdure a piacere / minestrone", "quantity": "Almeno 200 g" }
-      ],
-      "Grassi": [
-        { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio" }
-      ]
-    },
-
-    "Spuntino2": {
-      "Pausa proteica": [
-        { "name": "Budino proteico", "quantity": "1 vasetto" }
-      ]
-    },
-
-    "Cena": {
-      "Proteine": [
-        { "name": "Ricotta",   "quantity": "100 g" },
-        { "name": "Mozzarella di bufala", "quantity": "125 g" },
-        { "name": "Scamorza / Primo sale / Philadelphia light / Stracchino / Feta", "quantity": "80–100 g" }
-      ],
-      "Carboidrati": [
-        { "name": "Pane integrale / Wasa / Crakers / Friselle / Riso o pastina", "quantity": "3–40 g / 6 pz / 2–40 g" }
-      ],
-      "Verdure": [
-        { "name": "Verdure a piacere (crude o cotte / vellutata)", "quantity": "Q.b." }
-      ],
-      "Grassi": [
-        { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio" }
-      ]
-    }
-  },
-
-  "Sonia": {
-    "Colazione": {
-      "Yogurt/Kefir": [
-        { "name": "Yogurt/kefir magro bianco o alla frutta (senza lattosio)", "quantity": "125–120 g" },
-        { "name": "Yogurt greco bianco senza lattosio",                       "quantity": "150 g" }
-      ],
-      "Cereali": [
-        { "name": "Cereali senza zuccheri aggiunti", "quantity": "20 g" }
-      ],
-      "Frutta secca": [
-        { "name": "Pistacchi / Mandorle / Nocciole / Noci", "quantity": "10 – 4 – 10 – Q.b." }
-      ],
-      "Frutta": [
-        { "name": "Frutta fresca", "quantity": "100 g" }
-      ]
-    },
-
-    "Spuntino": {
-      "Frutta secca": [
-        { "name": "Mandorle + noci",  "quantity": "5 + 2 pezzi" },
-        { "name": "Arachidi + noci",  "quantity": "10 + 2 pezzi" },
-        { "name": "Pistacchi + noci", "quantity": "10 + 2 pezzi" },
-        { "name": "Nocciole + noci",  "quantity": "6 + 2 pezzi" },
-        { "name": "Anacardi + noci",  "quantity": "6 + 2 pezzi" }
-      ]
-    },
-
-    "Pranzo": {
-      "Carboidrati": [
-        { "name": "Legumi in scatola / surgelati / secchi / hummus / hamburger vegani", "quantity": "120 g – 120 g – 25 g – 150 g – 75-100 g" }
-      ],
-      "Carboidrati secondari": [
-        { "name": "Pane integrale / Wasa / Crakers / Riso basmati / Pasta integrale / Cous cous / Farro", "quantity": "40 g / 2-6 pezzi / 40 g" }
-      ],
-      "Verdure": [
-        { "name": "Verdure a piacere", "quantity": "Q.b." }
-      ],
-      "Grassi": [
-        { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio" }
-      ]
-    },
-
-    "Spuntino2": {
-      "Pausa proteica": [
-        { "name": "Budino proteico", "quantity": "1 vasetto" }
-      ]
-    },
-
-    "Cena": {
-      "Proteine": [
-        { "name": "Ricotta",   "quantity": "100 g" },
-        { "name": "Mozzarella di bufala", "quantity": "125 g" },
-        { "name": "Scamorza / Primo sale / Philadelphia light / Stracchino / Feta", "quantity": "80–100 g" }
-      ],
-      "Carboidrati": [
-        { "name": "Pane integrale / Wasa / Crakers / Friselle / Riso o pastina", "quantity": "3–40 g / 6 pz / 2–40 g" }
-      ],
-      "Verdure": [
-        { "name": "Verdure a piacere (crude o cotte / vellutata)", "quantity": "Q.b." }
-      ],
-      "Grassi": [
-        { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio" }
-      ]
-    }
-  }
-},
-{
-  "name": "Sabato",
-  "Marco": {
-    "Colazione": {
-      "Pancake": [
-        { "name": "Pancake proteici già pronti",            "quantity": "2 pezzi" },
-        { "name": "1 uovo + 45 g farina + ½ banana",        "quantity": "Q.b." }
-      ],
-      "Dolci": [
-        { "name": "Miele",              "quantity": "1 cucchiaino" },
-        { "name": "Marmellata light",   "quantity": "Q.b." }
-      ],
-      "Bevande": [
-        { "name": "Tè o caffè (senza zucchero)", "quantity": "Q.b." }
-      ]
-    },
-
-    "Spuntino": {
-      "Frutta": [
-        { "name": "Frutta fresca", "quantity": "150 g" }
-      ]
-    },
-
-    "Pranzo": {
-      "Carboidrati": [
-        { "name": "Pasta integrale / Riso basmati", "quantity": "50 g" },
-        { "name": "Pane integrale",                 "quantity": "50 g" },
-        { "name": "Crakers all’acqua",              "quantity": "5 pezzi" }
-      ],
-      "Proteine": [
-        { "name": "Fagioli / Ceci / Piselli (in scatola o surgelati)", "quantity": "120 g (1 scatoletta piccola)" },
-        { "name": "Fagioli / Ceci / Piselli secchi",                   "quantity": "25 g (peso a crudo)" }
-      ],
-      "Verdure": [
-        { "name": "Verdure a piacere (crude o cotte)", "quantity": "Almeno 200 g" }
-      ],
-      "Grassi": [
-        { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio" }
-      ]
-    },
-
-    "Spuntino2": {
-      "Frutta": [
-        { "name": "Frutta fresca", "quantity": "200 g" }
-      ]
-    },
-
-    "Cena": {
-      "Opzioni": [
-        { "name": "Pasto libero", "quantity": "Q.b." }
-      ]
-    }
-  },
-
-  "Sonia": {
-    "Colazione": {
-      "Carboidrati": [
-        { "name": "Fette biscottate integrali", "quantity": "3 pezzi" },
-        { "name": "Pane integrale da toast",    "quantity": "2 fette" }
-      ],
-      "Proteine": [
-        { "name": "Latte vegetale (senza zuccheri, addizionato Ca – Vit D – B12)", "quantity": "150 ml" }
-      ],
-      "Dolci": [
-        { "name": "Marmellata light Hero", "quantity": "Q.b." },
-        { "name": "Nocciolata Novi",       "quantity": "Q.b." }
-      ]
-    },
-
-    "Spuntino2": {
-      "Frutta": [
-        { "name": "Frutta fresca", "quantity": "150 g" }
-      ]
-    },
-
-    "Pranzo": {
-      "Carboidrati": [
-        { "name": "Pasta integrale / Riso basmati", "quantity": "50 g" },
-        { "name": "Pane integrale",                 "quantity": "50 g" },
-        { "name": "Crakers all’acqua",              "quantity": "5 pezzi" }
-      ],
-      "Proteine": [
-        { "name": "Fagioli / Ceci / Piselli (in scatola o surgelati)", "quantity": "120 g (1 scatoletta piccola)" },
-        { "name": "Fagioli / Ceci / Piselli secchi",                   "quantity": "25 g (peso a crudo)" }
-      ],
-      "Verdure": [
-        { "name": "Verdure a piacere (crude o cotte)", "quantity": "Almeno 200 g" }
-      ],
-      "Grassi": [
-        { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio" }
-      ]
-    },
-
-    "Cena": {
-      "Opzioni": [
-        { "name": "Pasto libero", "quantity": "Q.b." }
-      ]
-    }
-  }
-}
-,
-{
-  "name": "Domenica",
-  "Marco": {
-    "Colazione": {
-      "Proteine": [
-        { "name": "Yogurt / kefir (magro, bianco o frutta, anche senza lattosio)", "quantity": "125–120 g" },
-        { "name": "Yogurt greco bianco (senza lattosio)",                          "quantity": "150 g" }
-      ],
-      "Carboidrati": [
-        { "name": "Cereali senza zuccheri aggiunti", "quantity": "20 g" }
-      ],
-      "Grassi": [
-        { "name": "Pistacchi / Mandorle / Nocciole / Noci", "quantity": "10 pz / 4 pz / 10 pz / 3 pz" }
-      ],
-      "Frutta": [
-        { "name": "Frutta fresca", "quantity": "100 g" }
-      ]
-    },
-
-    "Spuntino": {
-      "Frutta secca": [
-        { "name": "Mandorle + noci",  "quantity": "5 + 2 pz" },
-        { "name": "Arachidi + noci",  "quantity": "10 + 2 pz" },
-        { "name": "Pistacchi + noci", "quantity": "10 + 2 pz" },
-        { "name": "Nocciole + noci",  "quantity": "6 + 2 pz" },
-        { "name": "Anacardi + noci",  "quantity": "6 + 2 pz" }
-      ]
-    },
-
-    "Pranzo": {
-      "Carboidrati": [
-        { "name": "Risotto alla zucca e grana (con verdure a parte)",                 "quantity": "100 g" },
-        { "name": "Risotto alle verdure e grana (con verdure a parte)",               "quantity": "100 g" },
-        { "name": "Gnocchetti di patate + pomodoro + grana (verdure a parte)",        "quantity": "180 g" },
-        { "name": "Spätzle al pomodoro + grana (verdure a parte)",                    "quantity": "150 g" },
-        { "name": "Ravioli con burro (verdure grigliate a parte)",                    "quantity": "15 pezzi" }
-      ],
-      "Proteine": [
-        { "name": "Risotto (grana)",   "quantity": "30 g" },
-        { "name": "Gnocchetti (grana)","quantity": "30 g" },
-        { "name": "Spätzle (grana)",   "quantity": "30 g" },
-        { "name": "Ravioli (burro)",   "quantity": "10 g burro" }
-      ],
-      "Verdure": [
-        { "name": "Verdure di contorno / a parte", "quantity": "Q.b." }
-      ]
-    },
-
-    "Spuntino2": {
-      "Snack": [
-        { "name": "Frutta fresca",   "quantity": "150 g" },
-        { "name": "Cocco essiccato", "quantity": "15 g" },
-        { "name": "Cocco fresco",    "quantity": "40 g" }
-      ]
-    },
-
-    "Cena": {
-      "Proteine": [
-        { "name": "Uova", "quantity": "2 uova" }
-      ],
-      "Carboidrati": [
-        { "name": "Pane integrale",           "quantity": "50 g" },
-        { "name": "Pane azzimo",              "quantity": "30 g" },
-        { "name": "Wasa / Gallette",          "quantity": "4 pezzi" },
-        { "name": "Patate",                   "quantity": "200 g" },
-        { "name": "Purè di patate",           "quantity": "10 cucchiai" },
-        { "name": "Crakers all’acqua",        "quantity": "12 pezzi" }
-      ],
-      "Verdure": [
-        { "name": "Verdure a piacere (crude o cotte)", "quantity": "≥ 200 g" }
-      ],
-      "Grassi": [
-        { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio" }
-      ]
-    }
-  },
-
-  "Sonia": {
-    "Colazione": {
-      "Proteine": [
-        { "name": "Yogurt / kefir (magro, bianco o frutta, anche senza lattosio)", "quantity": "125–120 g" },
-        { "name": "Yogurt greco bianco (senza lattosio)",                          "quantity": "150 g" }
-      ],
-      "Carboidrati": [
-        { "name": "Cereali senza zuccheri aggiunti", "quantity": "20 g" }
-      ],
-      "Grassi": [
-        { "name": "Pistacchi / Mandorle / Nocciole / Noci", "quantity": "10 pz / 4 pz / 10 pz / 3 pz" }
-      ],
-      "Frutta": [
-        { "name": "Frutta fresca", "quantity": "100 g" }
-      ]
-    },
-
-    "Spuntino": {
-      "Frutta secca": [
-        { "name": "Mandorle + noci",  "quantity": "5 + 2 pz" },
-        { "name": "Arachidi + noci",  "quantity": "10 + 2 pz" },
-        { "name": "Pistacchi + noci", "quantity": "10 + 2 pz" },
-        { "name": "Nocciole + noci",  "quantity": "6 + 2 pz" },
-        { "name": "Anacardi + noci",  "quantity": "6 + 2 pz" }
-      ]
-    },
-
-    "Pranzo": {
-      "Carboidrati": [
-        { "name": "Spätzle o gnocchetti di patate + pomodoro + grana (verdure a parte)", "quantity": "150 g" },
-        { "name": "Pasta integrale / riso / polenta / ravioli (verdure grigliate a parte)", "quantity": "70–100 g / 10 pezzi" }
-      ],
-      "Proteine": [
-        { "name": "Spätzle / gnocchetti (grana)", "quantity": "30 g" },
-        { "name": "Pasta / riso / polenta (grana/burro)", "quantity": "30 g / 10 g burro" }
-      ],
-      "Verdure": [
-        { "name": "Verdure a piacere di contorno", "quantity": "Q.b." }
-      ]
-    },
-
-    "Spuntino2": {
-      "Snack": [
-        { "name": "Frutta fresca",   "quantity": "150 g" },
-        { "name": "Cocco essiccato", "quantity": "15 g" },
-        { "name": "Cocco fresco",    "quantity": "40 g" }
-      ]
-    },
-
-    "Cena": {
-      "Proteine": [
-        { "name": "Uova", "quantity": "2 uova" }
-      ],
-      "Carboidrati": [
-        { "name": "Pane integrale",           "quantity": "50 g" },
-        { "name": "Pane azzimo",              "quantity": "30 g" },
-        { "name": "Wasa / Gallette",          "quantity": "4 pezzi" },
-        { "name": "Patate",                   "quantity": "200 g" },
-        { "name": "Purè di patate",           "quantity": "10 cucchiai" },
-        { "name": "Crakers all’acqua",        "quantity": "12 pezzi" }
-      ],
-      "Verdure": [
-        { "name": "Verdure a piacere (crude o cotte)", "quantity": "≥ 200 g" }
-      ],
-      "Grassi": [
-        { "name": "Olio extravergine d’oliva", "quantity": "1 cucchiaio" }
-      ]
-    }
-  }
-}
   ]
 }
-
-
